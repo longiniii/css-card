@@ -5,9 +5,9 @@
     font-family: 'Roboto Slab', serif;
 }
 html {
-    font-size: 16px;
+    font-size: 10px;
 }
-$color1: red;
+$color1: rgb(251, 127, 147);
 $color2: white;
 
 body {
@@ -32,7 +32,7 @@ section {
         flex-flow: column;
         .div11 {
             flex: 1;
-            background-image: url("https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-8.jpg");
+            background-image: url('https://img.freepik.com/free-photo/blurred-pop-abstract-background-pink_58702-1699.jpg');
             background-size: cover;
             background-position: bottom;
             background-repeat: no-repeat;
@@ -87,22 +87,20 @@ section {
                 left: 10rem;
                 background-color: $color1;
                 color: $color2;
-                border: none;
+                border: 2px solid $color1;
                 &:hover {
                     background-color: $color2;
                     color: $color1;
-                    border: 3px solid $color1;
                 }
             }
             .button2 {
                 left: 22rem;
                 background-color: $color2;
                 color: $color1;
-                border: 3px solid $color1;
+                border: 2px solid $color1;
                 &:hover {
                     background-color: $color1;
                     color: $color2;
-                    border: none;
                 }
             }
         }
@@ -112,13 +110,12 @@ section {
         top: 14rem;
         left: 6rem;
         transform: translate(-50%, -50%);
-        border: 0.5rem solid $color2;
+        border: 0.4rem solid $color2;
         border-radius: 50%;
-        box-shadow: 0px 2px 30px 1px black;
+        box-shadow: 0px 2px 11px 1px $color1;
         overflow: hidden;
         height: 10rem;
         width: 10rem;
-        background-color: yellow;
         img {
             height: 100%;
             width: 100%;

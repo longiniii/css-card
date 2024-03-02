@@ -6,13 +6,13 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 10px;
 }
 
 body {
   height: 100vh;
   width: 100vw;
-  background-color: red;
+  background-color: rgb(251, 127, 147);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@ section .div1 {
 }
 section .div1 .div11 {
   flex: 1;
-  background-image: url("https://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-8.jpg");
+  background-image: url("https://img.freepik.com/free-photo/blurred-pop-abstract-background-pink_58702-1699.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ section .div1 .div12 h1 {
   left: 22rem;
   transform: translateX(-50%);
   white-space: nowrap;
-  color: red;
+  color: rgb(251, 127, 147);
 }
 section .div1 .div12 p {
   position: absolute;
@@ -59,14 +59,14 @@ section .div1 .div12 p {
   transform: translateX(-50%);
   text-align: center;
   font-size: 1.5rem;
-  color: red;
+  color: rgb(251, 127, 147);
 }
 section .div1 .div12 span {
   position: absolute;
   top: 25.5rem;
   left: 16rem;
   transform: translate(-50%, -50%);
-  color: red;
+  color: rgb(251, 127, 147);
   display: flex;
   flex-flow: row wrap;
   gap: 1.4rem;
@@ -88,38 +88,35 @@ section .div1 .div12 button {
 }
 section .div1 .div12 .button1 {
   left: 10rem;
-  background-color: red;
+  background-color: rgb(251, 127, 147);
   color: white;
-  border: none;
+  border: 2px solid rgb(251, 127, 147);
 }
 section .div1 .div12 .button1:hover {
   background-color: white;
-  color: red;
-  border: 3px solid red;
+  color: rgb(251, 127, 147);
 }
 section .div1 .div12 .button2 {
   left: 22rem;
   background-color: white;
-  color: red;
-  border: 3px solid red;
+  color: rgb(251, 127, 147);
+  border: 2px solid rgb(251, 127, 147);
 }
 section .div1 .div12 .button2:hover {
-  background-color: red;
+  background-color: rgb(251, 127, 147);
   color: white;
-  border: none;
 }
 section .div2 {
   position: absolute;
   top: 14rem;
   left: 6rem;
   transform: translate(-50%, -50%);
-  border: 0.5rem solid white;
+  border: 0.4rem solid white;
   border-radius: 50%;
-  box-shadow: 0px 2px 30px 1px black;
+  box-shadow: 0px 2px 11px 1px rgb(251, 127, 147);
   overflow: hidden;
   height: 10rem;
   width: 10rem;
-  background-color: yellow;
 }
 section .div2 img {
   height: 100%;
